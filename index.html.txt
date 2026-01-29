@@ -1,33 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>联系客服</title>
+  <meta charset="UTF-8">
+  <title>页面正常运行中</title>
 </head>
 <body>
-    <h2 style="text-align:center;margin-top:50px;">欢迎联系客服</h2>
-    <p style="text-align:center;">客服窗口将自动弹出，如未弹出请稍等几秒</p>
 
-    <!-- 美洽客服代码 -->
-    <script type="text/javascript">
-        (function(a, b, c, d, e, j, s) {
-            a[d] = a[d] || function() {
-                (a[d].a = a[d].a || []).push(arguments);
-            };
-            j = b.createElement(c),
-            s = b.getElementsByTagName(c)[0];
-            j.async = true;
-            j.charset = 'UTF-8';
-            j.src = 'https://static.meiqia.com/widget/loader.js';
-            s.parentNode.insertBefore(j, s);
-        })(window, document, 'script', '_MEIQIA');
+<h1>✅ 页面已成功部署</h1>
+<p>如果你能看到这段文字，说明 GitHub Pages 是正常的。</p>
 
-        _MEIQIA('entId', '49978004c3137028bab324ca3d6b73d2');
+<script>
+  console.log("JS 已正常加载");
+</script>
 
-        // 👇 自动弹出聊天窗口（关键一行）
-        _MEIQIA('ready', function () {
-            _MEIQIA('showPanel');
-        });
-    </script>
+<!-- 示例外部 JS（你之前要加的那种） -->
+<script src="https://static.meiqia.com/widget/loader.js"></script>
+
 </body>
 </html>
